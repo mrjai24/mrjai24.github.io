@@ -1,0 +1,106 @@
+﻿li {
+    color: dodgerblue;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+#main-title {
+    font-size: 5rem;
+}
+
+.demo-class {
+    background-color: purple;
+}
+
+* {
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+h3 {
+    color: indianred;
+}
+
+.section-1 {
+    background-color: rgba(1,0,0,0.3);
+    border: 5px red solid;
+    padding: 0% 20%;
+    margin: 10px;
+}
+
+    .section-1 li {
+        font-family: Tahoma;
+        font-weight: 800;
+        font-style: italic;
+        text-decoration: underline;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+.section-2 {
+    background-color: rgba(1,0,0,0.4);
+    border-top: 16px green groove;
+    border-bottom: 16px green groove;
+    padding: 0% 20%;
+    margin: 10px;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+#myform {
+    background-color: grey;
+    color: blanchedalmond;
+    padding: 50px;
+    margin: 10px;
+}
+
+    #myform input[type = "text"] {
+        padding: 8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+input[type = "submit"] {
+    padding: 8px;
+    border: none;
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+.flex-container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+    .flex-container li {
+        list-style: none;
+    }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a:active {
+        transform: translateY(4px);
+    }
+
+img {
+}
