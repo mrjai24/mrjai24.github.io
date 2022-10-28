@@ -46,20 +46,12 @@ class Balloon {
             currScore++
             document.getElementById("score").innerHTML = currScore
             this.col = color(156)
-
-            popSfx.play()
         }
     }
 }
 
 let balloons = []
 const NUM_OF_BALLOONS = 25
-let popSfx
-
-function preload() {
-    soundFormats('wav')
-    popSfx = loadSound("pop")
-}
 
 function setup() {
     let canvas = createCanvas(640, 480)
